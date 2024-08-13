@@ -1,0 +1,52 @@
+#topBanner
+    {
+    background-color: #2C5446; /* Background color */
+    position: relative;
+    height: 2.75rem; /* Height of the div */ 
+    padding: 0 2.50rem;   
+    box-sizing: border-box;
+    border:#356554 1px solid;
+     
+}
+
+#topBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2.50rem;
+    height: 100%;
+    width: 50%;
+    background: url(/images/path.png) no-repeat top left;
+    background-size: contain;
+    pointer-events: none; /* Allow interaction with underlying elements */
+}
+
+#topBanner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 2.50rem;
+    height: 100%;
+    width: 50%;
+    background: url(/images/path.png) no-repeat top right;
+    background-size: contain;
+    transform: scaleY(-1); /* Mirror the image along the Y-axis */
+    pointer-events: none; /* Allow interaction with underlying elements */
+}
+
+#ctaLink {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+#ctaLink::before {
+    content: "";    
+    background: url(/images/Vector.png) no-repeat top right;
+    background-size: contain;
+    height: 1.38rem;
+    width: 1.38rem;
+    margin-right: 0.38px;
+}
+

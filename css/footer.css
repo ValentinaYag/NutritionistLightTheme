@@ -1,0 +1,58 @@
+#footerInfoBar {
+    background-color: #2C5446; /* Background color */
+    position: relative;
+    height: 5.44rem; /* Height of the div */
+    margin-top: 3.13rem;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border:#356554 1px solid;
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+#footerInfoBar .col.d-flex.flex-wrap.align-items-center {
+    gap: 20px; /* Gap between flex items */
+}
+.footerInfoItems::before{
+    display: inline-block;
+    margin-right: 0.375rem; 
+
+}
+.footerInfoItems:hover {
+   
+    border-color: #CBEA7B; /* Ensure border color remains the same on hover */
+}
+
+.footerInfoItems.email::before {
+    content: url('/images/emailIcon.png'); 
+    
+}
+
+.footerInfoItems.phone::before {
+    content: url('/images/phoneIcon.png'); 
+}
+
+.footerInfoItems.map::before {
+    content: url('/images/mapIcon.png'); 
+}
+
+.footerInfoItems {
+    width: 30%; /* Adjust percentage as needed */
+    min-width: 150px; /* Ensure a minimum width for readability */
+    height: 3.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border:#356554 1px solid;     
+    
+}
+
+
+#footerInfoBar .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#footerInfoBar .d-flex.justify-content-end.align-items-center {
+    margin-left: auto;
+}

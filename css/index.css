@@ -1,0 +1,274 @@
+h1 {
+    font-size: 3.63em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+.hero {
+    margin-top: 7.84rem;
+    margin-left: 3.13rem;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero h3 {
+    text-decoration: underline;
+    text-decoration-color: #CBEA7B;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+    text-underline-offset: 5px;
+    margin-bottom: 14px;
+
+}
+
+.ctaWrapper {
+    margin-bottom: 88px;
+}
+
+.btnCTA {
+    width: 187px;
+    height: 59px;
+    color: #262626;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btnStarter {
+    background-color: #CBEA7B;
+}
+
+.btnStarter:hover {
+    background-color: #DCF1A7;
+}
+
+.btnDemo {
+    margin-left: 20px;
+    background-color: #F6FBE9;
+    border: #CBEA7B 1px solid;
+}
+
+.btnDemo:hover {
+    background-color: #DCF1A7;
+}
+
+.customersImg {
+    display: flex;
+    width: 130px;
+    height: 66px;
+    justify-content: center;
+    position: relative;
+    border-radius: 58px;
+    border: #CBEA7B 1px solid;
+}
+
+.customerImg {
+    top:8px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.customerImg:nth-child(1) {
+    left: 10px;
+    z-index: 3;
+}
+
+.customerImg:nth-child(2) {
+    left: 52px;
+    transform: translateX(-25%);
+    z-index: 3;
+}
+
+.customerImg:nth-child(3) {
+    right: 10px;
+    z-index: 4;
+}
+.customers span{
+    font-size: 30px;
+}
+
+.customerCount {
+    color: #468671;
+}
+.row.anchor{
+    margin-top:149px
+}
+.description
+{
+    margin-bottom: 80px;
+    align-items: center;
+}
+.row.anchor h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.row.anchor h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.row.anchor p{
+    font-size: 18px;    
+    font-weight: 500;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+/* FEATURES */
+
+.col.card{
+    border: #E5F5BD 1px solid;
+    border-radius: 12px;
+    background-color:#F6FBE9;
+    color: #262626 ;    
+    margin-bottom: 30px;
+    padding: 50px;
+    padding-top: 40px;
+    height: 253px; 
+}
+.col.card p{
+    padding-top: 24px;
+}
+/* END FEATURES */
+
+/* BLOG */
+
+.post-item {
+    margin-bottom: 30px;
+    background-color: #F6FBE9;
+    padding: 40px;
+    border-radius: 12px;
+    border:#EEF8D3 1px solid;
+    
+}
+
+.text-muted
+{
+    margin-top: 40px;
+}
+.post-description{
+   height: 54px;
+}
+.post-title
+{
+    margin-bottom: 30px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    background-color: #FAFDF2;
+    height: 100px;
+    padding: 20px;
+    border:#EEF8D3 1px solid;
+    border-radius: 12px;
+   
+}
+
+.author-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 0.38rem;
+    margin-right: 10px;
+}
+
+.post-icons {
+    height: 60px;
+    width: 60px;
+    color: #4C4C4C;
+    background-color: #F6FBE9;
+    border: #EEF8D3 1px solid;   
+    display: flex;    
+    float: right;  
+}
+
+.post-icons i {
+    font-size: 1.2rem;    
+}
+/* END BLOG */
+
+/* TESTIMONIALS */
+.testimonial-item {  
+    background-color: #FAFDF2;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    height: 398px;
+    border: #EEF8D3 1px solid;
+    border-radius: 12px;
+}
+
+.testimonial-item .quote-icon {    
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 2rem;    
+}
+
+.testimonial-text {   
+    min-height: 125px;
+    padding: 0 40px 0 40px;  
+    padding-top: 40px;
+     
+}
+
+.testimonial-author {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #F6FBE9;
+    width: 100%;
+    bottom: 0px;  
+    font-weight: 700;  
+    border-top: #EEF8D3 1px solid;
+
+    
+}
+
+.testimonial-author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 40px;
+    
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #E5F5BD;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #356554; /* Active dot color */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 58px;
+    width: 58px;
+    position: relative;
+    top: 20px;
+    background-color: #F6FBE9;
+    border:#EEF8D3 1px solid;
+    border-radius: 8px;
+}
+/* END TESTIMONIALS */
