@@ -1,0 +1,30 @@
+<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Carousel Inner -->
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let group of groupedTestimonials; let i = index" [class.active]="i === 0">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12" *ngFor="let testimonial of group">
+          <app-testimonial-item [description]="testimonial.description" [imageUser]="testimonial.imageUser"
+            [userName]="testimonial.userName"></app-testimonial-item>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation Buttons -->
+  <div class="d-flex justify-content-center testimonials-nav">
+    <button class="carousel-control-prev me-3" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <!-- Indicators (Dots) -->
+    <div class="carousel-indicators mt-3">
+      <button *ngFor="let group of groupedTestimonials; let i = index" type="button"
+        data-bs-target="#testimonialCarousel" [attr.data-bs-slide-to]="i" [class.active]="i === 0"
+        [attr.aria-label]="'Slide ' + (i + 1)"></button>
+    </div>
+    <button class="carousel-control-next ms-3" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>

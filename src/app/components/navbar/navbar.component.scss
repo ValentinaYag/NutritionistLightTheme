@@ -1,0 +1,86 @@
+.navbar {
+    max-width: 1596px;
+}
+
+.navbar-container {
+    padding-top: 12px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*LAPTOP*/
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .navbar {
+        max-width: 920px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .navbar {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .navbar {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .navbar {
+        max-width: 1340px;
+    }
+}
+
+/*MOBILE*/
+@media (max-width: 390px) {
+    .btnContact {
+        display: none;
+    }
+
+    .navbar-nav {
+        gap: 0px !important;
+    }
+
+    .navbar-collapse {
+        padding-left: 16px;
+    }
+
+    .navbar-brand {
+
+        padding-left: 16px;
+
+    }
+
+    .navbar-brand img {
+        width: 147px;
+        height: 34px;
+    }
+
+    ;
+
+    .navbar-toggler {
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url('/images/mobile-menu-icon.png');
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+}

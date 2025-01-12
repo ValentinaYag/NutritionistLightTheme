@@ -1,27 +1,43 @@
-# Nutritionist
+# Nutritionist (Angular Implementation)
+## Welcome to the Nutritionist project!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+This web application is a conversion of a Figma design into an Angular-based implementation.
+> Note: The original Figma design used as a reference for this project is not my creation. My role was to translate the design into a fully functional Angular application. UI was designed by  [Praha](https://www.figma.com/@praha) on Figma.
 
-## Development server
+## Features
+- Built with Angular CLI version 18.2.11
+- Responsive UI based on modern web development practices
+- Organized code structure for scalability and maintainability
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Development Setup
 
-## Code scaffolding
+Prerequisites
+Ensure you have the following installed on your machine:
+- [node.js] - (version 14 or above recommended)
+- [Angular CLI](https://angular.dev/tools/cli) - (version 14 or above recommended)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Steps to Run Localy
 
-## Build
+1. Clone the repository:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+git clone https://github.com/ValentinaYag/NutritionistLightTheme.git
+cd NutritionistLightTheme
+```
 
-## Running unit tests
+2. Install dependencies:.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm install
+```
+3. Start the development server:
+```sh
+ng serve
+```
 
-## Running end-to-end tests
+## Acknowledgments
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- The original design inspiration is credited to the Figma creator.
+- Thanks to the Angular team for providing comprehensive tools and resources.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Feel free to contribute to this project or raise issues in the repository for improvements!**

@@ -1,0 +1,88 @@
+.mobile-footer {
+  background-color: #1A3129;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  .container-fluid {
+    padding: 0px;
+  }
+
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .go-to-top {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    .go-to-top-icon {
+      width: 40px;
+      height: 40px;
+      background-color: #234338;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s;
+
+      i {
+        font-size: 20px;
+      }
+    }
+
+    &:hover .go-to-top-icon {
+      background-color: #5F8766;
+    }
+  }
+
+  .nav {
+    margin-top: 20px;
+
+    .nav-link {
+      font-size: 14px;
+      text-align: center;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .contact-info {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #2C5446;
+    border-radius: 8px;
+    background-color: #234338;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+    .contact-item {
+      height: 48px;
+      width: 100%;
+      line-height: 48px;
+      border: 1px solid #2C5446;
+      align-items: center;
+      text-decoration: none;
+
+      i {
+        font-size: 16px;
+        color: #B3E283;
+      }
+    }
+  }
+
+  .text-center {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+}

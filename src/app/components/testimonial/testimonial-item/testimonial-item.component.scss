@@ -1,0 +1,117 @@
+/* TESTIMONIALS */
+.testimonial-item {
+    background-color: #FAFDF2;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    height: 398px;
+    border: #EEF8D3 1px solid;
+    border-radius: 12px;
+}
+
+.testimonial-item .quote-icon {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.testimonial-text {
+    min-height: 125px;
+    padding: 0 40px 0 40px;
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.testimonial-author {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: #F6FBE9;
+    width: 100%;
+    bottom: 0px;
+    font-weight: 700;
+    border-top: #EEF8D3 1px solid;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+/* END TESTIMONIALS */
+/*LAPTOP*/
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .testimonial-item[_ngcontent-ng-c4251858867] {
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    .testimonial-item .quote-icon {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .testimonial-text {
+        min-height: 96px;
+        padding: 0 20px 0 20px;
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .testimonial-item[_ngcontent-ng-c4251858867] {
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    .testimonial-item .quote-icon {
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 22px;
+    }
+
+    .testimonial-text {
+        min-height: 96px;
+        padding: 0 30px 0 30px;
+        padding-top: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+}
+
+/*MOBILE*/
+@media (max-width: 390px) {
+    .testimonial-item {
+        height: 282px;
+        border-radius: 10px;
+    }
+
+    .testimonial-item .quote-icon {
+        margin-left: 27px;
+        margin-top: 30px;
+        font-size: 22px;
+    }
+
+    .testimonial-text {
+        min-height: 84px;
+        padding: 24px;
+        font-size: 14px;
+    }
+
+    .testimonial-author {
+        height: 76px;
+    }
+
+}

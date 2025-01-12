@@ -1,0 +1,97 @@
+.card {
+    min-height: 400px;
+    background-color: #F6FBE9;
+    border: #EEF8D3 1px solid;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.text-success {
+    color: #4C4C4D !important;
+    margin-bottom: 30px !important;
+}
+
+.plan-description {
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.plan-price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2C5446;
+    margin-bottom: 24px;
+}
+
+.plan-price span {
+    color: #333333;
+    font-weight: normal;
+
+}
+
+.price-btn {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #CBEA7B;
+    color: #262626;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*LAPTOP*/
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .card-body {
+        padding: 30px;
+    }
+
+    .text-success {
+        margin-bottom: 20px !important;
+    }
+
+    .plan-description {
+        margin-bottom: 20px;
+        height: 162px;
+    }
+
+    .plan-price {
+        font-size: 30px;
+        margin-bottom: 17px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .plan-description {
+        font-size: 16px;
+    }
+
+}
+
+/*MOBILE*/
+@media (max-width: 390px) {
+    .card-body {
+        padding: 30px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .text-success {
+        font-size: 14px;
+    }
+
+    .plan-description {
+        font-size: 14px;
+    }
+}

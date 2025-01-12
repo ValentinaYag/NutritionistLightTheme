@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let plan of plans">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title fw-semibold">{{ plan.name }}</h5>
+        <p class="text-success fs-18" [ngStyle]="{ visibility: isMonthlyView ? 'visible' : 'hidden' }">
+          Up to {{(plan.discountRate * 100).toFixed(0) }}% off on Yearly Plan
+        </p>
+        <p class="plan-description fs-18">
+          {{plan.description}}
+        </p>
+        <p class="plan-price">
+          ${{ plan.price}}<span class="fs-18">/{{ isMonthlyView ? 'month' : 'year' }}</span>
+        </p>
+        <a href="#" class="btn btn-primary price-btn">Choose Plan</a>
+      </div>
+    </div>
+  </div>
+</div>
